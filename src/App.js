@@ -1,8 +1,13 @@
 import './App.css';
+import Header from './components/header';
+import List from './components/list';
 
 function App() {
   return (
-    <div>Hello</div>
+    <div>
+      <Header/>
+      <List/>
+    </div>
   )
 }
 
